@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
+import { Link } from "react-router-dom";
 
 function ContactPage() {
   const [state, handleSubmit] = useForm("movlqkrv");
@@ -22,9 +23,9 @@ function ContactPage() {
                             <p>¡Tu mensaje ha sido enviado correctamente!</p>
                         </div>
                         <div className="modal-footer">
-                            <a href="/" className="btn btn-primary">
-                                Volver al inicio
-                            </a>
+                            <Link to="/" className="btn btn-primary">
+                              Volver al inicio
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -3,28 +3,28 @@
     "id": 1,
     "titulo": "Portfolio Personal",
     "descripcion": "Sitio web para mostrar mi experiencia y proyectos.",
-    "imagen": "/assets/portfolio.svg",
+    "imagen": "assets/portfolio.svg",
     "repositorio": "https://github.com/gonzaga24"
   },
   {
     "id": 2,
     "titulo": "Tienda Online",
     "descripcion": "Aplicación de comercio electrónico con carrito de compras.",
-    "imagen": "/assets/tienda.svg",
+    "imagen": "assets/tienda.svg",
     "repositorio": "https://github.com/gonzaga24"
   },
   {
     "id": 3,
     "titulo": "Blog Técnico",
     "descripcion": "Blog para compartir artículos sobre desarrollo web.",
-    "imagen": "/assets/blog.svg",
+    "imagen": "assets/blog.svg",
     "repositorio": "https://github.com/gonzaga24"
   },
   {
     "id": 4,
     "titulo": "Gestor de Tareas",
     "descripcion": "Aplicación para organizar y gestionar tareas diarias.",
-    "imagen": "/assets/tareas.svg",
+    "imagen": "assets/tareas.svg",
     "repositorio": "https://github.com/gonzaga24"
   }
 ]

@@ -10,7 +10,7 @@ function ProjectCard(props) {
   //Elemento que mostramos al usuario
   return (
     <div className="card border-dark">
-      <img src={proyecto.imagen} height={100} alt="portada del proyecto" className="card-img-top p-2" />
+      <img src={`${import.meta.env.BASE_URL}${proyecto.imagen}`} height={100} alt="portada del proyecto" className="card-img-top p-2" />
       <div className="card-body">
         <h5 className="card-title"> {proyecto.titulo} </h5> {/* titulo del proyecto*/}
         <p className="card-text"> {proyecto.descripcion} </p> {/* breve descripción del proyecto */}

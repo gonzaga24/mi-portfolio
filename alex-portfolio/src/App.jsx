@@ -16,7 +16,7 @@ function App() {
       {isError && <Header />}
       <main className="flex-grow-1">
           <Routes>
-          <Route path="/mi-portfolio" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="*" element={<ErrorPage/>} />
