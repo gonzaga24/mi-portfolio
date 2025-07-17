@@ -2,10 +2,10 @@ import listaProyectos from "../listaProyectos.json";
 
 function ProjectCard(props) {
   //Variables
-  const {numProyecto} = props;
+  const {numProject} = props;
 
   //Recogemos el proyecto por el número de proyecto que recibimos desde el json donde estará el listado de proyectos.
-  const proyecto = listaProyectos.find(p => p.id === numProyecto);
+  const proyecto = listaProyectos.find(p => p.id === numProject);
 
   //Elemento que mostramos al usuario
   return (

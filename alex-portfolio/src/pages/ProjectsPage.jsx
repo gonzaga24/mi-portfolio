@@ -1,14 +1,18 @@
+import ProjectCard from "../components/ProjectCard";
+
 function ProjectsPage() {
   return (
-    <section>
-      <h1>My Projects</h1>
-      <p>Here are some of the projects I've worked on:</p>
-      <ul>
-        //TODO: Añadir elemento los componenetes de los proyectos
-        <li>Project 1: A web application for task management.</li>
-        <li>Project 2: An e-commerce site built with React.</li>
-        <li>Project 3: A mobile app for fitness tracking.</li>
-      </ul>
+    <section className="container mt-5 bg-secondary bg-gradient p-5">
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="col"><ProjectCard numProject={1}></ProjectCard></div>
+        <div className="col"><ProjectCard numProject={2}></ProjectCard></div>
+        <div className="col"><ProjectCard numProject={3}></ProjectCard></div>
+        <div className="col"><ProjectCard numProject={4}></ProjectCard></div>
+        <div className="col"><ProjectCard numProject={1}></ProjectCard></div>
+        <div className="col"><ProjectCard numProject={4}></ProjectCard></div>
+        <div className="col"><ProjectCard numProject={3}></ProjectCard></div>
+        <div className="col"><ProjectCard numProject={2}></ProjectCard></div>
+      </div>
     </section>
   );
     

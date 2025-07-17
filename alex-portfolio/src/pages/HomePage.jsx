@@ -18,7 +18,7 @@ function HomePage() {
         <section className="sobreMi container bg-secondary bg-gradient p-5">
           <div className="row align-items-center">
             <div className="col-7">
-              <p className="texto">Hola, me llamo <b>Álex</b> tengo { age } años vivo en <b>Madrid</b>, soy <b>desarrollador web junior</b>, he estudiado un grado superior de <b>Desarrollo de aplicaciones web</b> y estoy comenzando a realizar proyectos propios especializandome en: <b>php, laravel, react</b> e intentando implementar <b>python</b> a mis proyectos ya que me parece un lenguaje bastante polivalente. </p>
+              <p className="texto"><span className="display-6">Hola</span>, me llamo <b>Álex</b> tengo { age } años vivo en <b>Madrid</b>, soy <b>desarrollador web junior</b>, he estudiado un grado superior de <b>Desarrollo de aplicaciones web</b> y estoy comenzando a realizar proyectos propios especializandome en: <b>php, laravel, react</b> e intentando implementar <b>python</b> a mis proyectos ya que me parece un lenguaje bastante polivalente. </p>
             </div>
             <div className="col d-flex justify-content-center">
               <img className="foto" src={foto} alt="foto de alex" width={200} height={200} />
@@ -31,12 +31,12 @@ function HomePage() {
           </div>
         </section>
         <section className="proyectoDestacados container d-grid bg-secondary bg-gradient mt-3 p-3">
-            <h2>Proyectos destacados</h2>
-            <div className="card-group justify-content-around">
-              <ProjectCard numProyecto={1}></ProjectCard>
-              <ProjectCard numProyecto={2}></ProjectCard>
-              <ProjectCard numProyecto={3}></ProjectCard>
-              <ProjectCard numProyecto={4}></ProjectCard>
+            <h2><u>Proyectos destacados</u></h2>
+            <div className="card-group justify-content-around f-wrap">
+              <ProjectCard numProject={1}></ProjectCard>
+              <ProjectCard numProject={2}></ProjectCard>
+              <ProjectCard numProject={3}></ProjectCard>
+              <ProjectCard numProject={4}></ProjectCard>
             </div>
         </section>
     </section>
