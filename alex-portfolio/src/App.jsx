@@ -15,14 +15,12 @@ function App() {
     <div className="d-flex flex-column min-vh-100">
       {isError && <Header />}
       <main className="flex-grow-1">
-        <BrowserRouter basename="/mi-portfolio">
           <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/mi-portfolio" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="*" element={<ErrorPage/>} />
         </Routes>
-        </BrowserRouter>
       </main>
       {isError && <Footer />}
     </div>
