@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter basename='/mi-portfolio'>
+    <BrowserRouter basename='/'>
       <App />
     </BrowserRouter>
 )
