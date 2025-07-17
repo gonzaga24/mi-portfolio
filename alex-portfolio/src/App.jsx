@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, BrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import ProjectsPage from "./pages/ProjectsPage";
@@ -15,12 +15,14 @@ function App() {
     <div className="d-flex flex-column min-vh-100">
       {isError && <Header />}
       <main className="flex-grow-1">
-        <Routes>
+        <BrowserRouter basename="/mi-portfolio">
+          <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="*" element={<ErrorPage/>} />
         </Routes>
+        </BrowserRouter>
       </main>
       {isError && <Footer />}
     </div>
